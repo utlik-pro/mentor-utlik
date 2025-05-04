@@ -9,6 +9,11 @@ export default function Home() {
 
       {/* Центрированный блок */}
       <div className="flex-grow flex flex-col items-center justify-center w-full">
+        <img
+          src="/logo.png"
+          alt="Utlik Logo"
+          className="w-24 h-auto mx-auto mb-4"
+          />
         <h1 className="text-4xl font-bold mb-6">Тренажер по переговорам</h1>
         <VoiceComponent />
         <small className="text-xs text-gray-500 mt-6">
