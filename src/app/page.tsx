@@ -17,7 +17,7 @@ export default function Home() {
         <h1 className="text-4xl font-bold mb-6">Тренажер по переговорам</h1>
         <VoiceComponent />
         <small className="text-xs text-gray-500 mt-6">
-          The app requires microphone access to work.
+          Приложение требует доступа к микрофону для работы.
         </small>
         <small className="text-xs text-gray-500 mt-2">v1.0.0</small>
         <small className="text-sm text-gray-500">Powered by Utlik. Co</small>
