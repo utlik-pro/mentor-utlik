@@ -1,3 +1,4 @@
+import React from "react";
 import VoiceComponent from "@/components/VoiceComponent";
 
 export default function Home() {
@@ -6,7 +7,7 @@ export default function Home() {
       {/* Абсолютный фон */}
       <div className="absolute -z-10 w-[500px] h-[500px] rounded-full bg-gradient-to-r from-purple-500/30 to-blue-500/30 blur-[100px] animate-pulse" />
 
-      {/* Центрированная часть */}
+      {/* Центрированный блок */}
       <div className="flex-grow flex flex-col items-center justify-center w-full">
         <h1 className="text-4xl font-bold mb-6">Тренажер по переговорам</h1>
         <VoiceComponent />
@@ -16,10 +17,10 @@ export default function Home() {
         <small className="text-xs text-gray-500 mt-2">v1.0.0</small>
       </div>
 
-      {/* Прижатая к низу надпись */}
+      {/* Футер */}
       <footer className="mt-4">
-        <small className="text-sm text-gray-500">Powered by Utlik. Co </br >v1.0.0</small>
+        <small className="text-sm text-gray-500">Powered by Utlik. Co</small>
       </footer>
-    </main
+    </main>
   );
 }
