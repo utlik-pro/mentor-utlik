@@ -40,8 +40,8 @@ const VoiceChat = () => {
         await navigator.mediaDevices.getUserMedia({ audio: true });
         setHasPermission(true);
       } catch (error) {
-        setErrorMessage("Microphone access denied");
-        console.error("Error accessing microphone:", error);
+        setErrorMessage("Доступ к микрофону запрещен");
+        console.error("Ошибка доступа к микрофону:", error);
       }
     };
 
@@ -56,8 +56,8 @@ const VoiceChat = () => {
       });
       console.log("Started conversation:", conversationId);
     } catch (error) {
-      setErrorMessage("Failed to start conversation");
-      console.error("Error starting conversation:", error);
+      setErrorMessage("Не удалось начать разговор");
+      console.error("Ошибка при начале разговора:", error);
     }
   };
 
@@ -65,7 +65,7 @@ const VoiceChat = () => {
     try {
       await conversation.endSession();
     } catch (error) {
-      setErrorMessage("Failed to end conversation");
+      setErrorMessage("Не удалось завершить разговор");
       console.error("Error ending conversation:", error);
     }
   };
