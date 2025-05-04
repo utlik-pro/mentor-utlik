@@ -134,7 +134,7 @@ const VoiceChat = () => {
             {errorMessage && <p className="text-red-500">{errorMessage}</p>}
             {!hasPermission && (
               <p className="text-yellow-600">
-                Please allow microphone access to use voice chat
+                Пожалуйста, разрешите доступ к микрофону для использования голосового чата
               </p>
             )}
           </div>
