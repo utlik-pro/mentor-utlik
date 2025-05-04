@@ -111,7 +111,7 @@ const VoiceChat = () => {
                 className="w-full"
               >
                 <MicOff className="mr-2 h-4 w-4" />
-                End Conversation
+                Завершить
               </Button>
             ) : (
               <Button
@@ -120,7 +120,7 @@ const VoiceChat = () => {
                 className="w-full"
               >
                 <Mic className="mr-2 h-4 w-4" />
-                Start Conversation
+                Начать
               </Button>
             )}
           </div>
@@ -128,7 +128,7 @@ const VoiceChat = () => {
           <div className="text-center text-sm">
             {status === "connected" && (
               <p className="text-green-600">
-                {isSpeaking ? "Agent is speaking..." : "Listening..."}
+                {isSpeaking ? "Собеседник говорит..." : "Слушаю..."}
               </p>
             )}
             {errorMessage && <p className="text-red-500">{errorMessage}</p>}
