@@ -7,7 +7,7 @@ export default function Home() {
       <div className="absolute -z-10 w-[500px] h-[500px] rounded-full bg-gradient-to-r from-purple-500/30 to-blue-500/30 blur-[100px] animate-pulse" />
 
       {/* Верхний блок */}
-      <div className="flex flex-col items-center mt-10">
+      <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 z-10 text-center">
         <h1 className="text-4xl font-bold mb-6">Тренажер по переговорам</h1>
         <VoiceComponent />
         <small className="text-xs text-gray-500 my-6">
