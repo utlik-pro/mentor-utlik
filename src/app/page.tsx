@@ -10,7 +10,7 @@ export default function Home() {
       {/* Центрированный блок */}
       <div className="flex-grow flex flex-col items-center justify-center w-full">
         <img
-          src="/logo.png"
+          src="/Utlik_logo.png"
           alt="Utlik Logo"
           className="w-24 h-auto mx-auto mb-4"
           />
