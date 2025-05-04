@@ -15,12 +15,8 @@ export default function Home() {
           The app requires microphone access to work.
         </small>
         <small className="text-xs text-gray-500 mt-2">v1.0.0</small>
-      </div>
-
-      {/* Футер */}
-      <footer className="mt-4">
         <small className="text-sm text-gray-500">Powered by Utlik. Co</small>
-      </footer>
+      </div>
     </main>
   );
 }
