@@ -14,7 +14,7 @@ export default function Home() {
           alt="Utlik Logo"
           className="w-24 h-auto mx-auto mb-4"
         />
-        <h1 className="text-4xl font-bold mb-6">Тренажер по переговорам</h1>
+        <h1 className="text-4xl font-bold mb-6">Ситуации №4: «Управлять неуправляемым»</h1>
         <VoiceComponent />
         <small className="text-xs text-gray-500 mt-6">
           Приложение требует доступа к микрофону для работы.
@@ -26,7 +26,7 @@ export default function Home() {
       {/* Футер с логотипом */}
       <footer className="mt-6">
         <img
-          src="/MilaMorova_logo.jpeg"
+          src="/MilaMorova_logo.svg"
           alt="Mila Morova Logo"
           className="w-20 h-auto opacity-70"
         />
