@@ -21,16 +21,16 @@ export default function Home() {
         </small>
         <small className="text-xs text-gray-500 mt-2">v1.0.0</small>
         <small className="text-sm text-gray-500">Powered by Utlik.Co</small>
-        </br>
+      </div>
+
+      {/* Футер с логотипом */}
+      <footer className="mt-4">
         <img
           src="/MilaMorova_logo.svg"
           alt="Mila Morova Logo"
           className="w-60 h-auto opacity-70"
         />
-      </div>
-
-      {/* Футер с логотипом */}
-      
+      </footer>
     </main>
   );
 }
