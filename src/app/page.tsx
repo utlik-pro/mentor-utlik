@@ -21,10 +21,11 @@ export default function Home() {
         </small>
         <small className="text-xs text-gray-500 mt-2">v1.0.0</small>
         <small className="text-sm text-gray-500">Powered by Utlik.Co</small>
+        </br>
         <img
           src="/MilaMorova_logo.svg"
           alt="Mila Morova Logo"
-          className="w-20 h-auto opacity-70"
+          className="w-60 h-auto opacity-70"
         />
       </div>
 
