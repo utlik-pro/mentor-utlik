@@ -14,23 +14,22 @@ export default function Home() {
           alt="Utlik Logo"
           className="w-24 h-auto mx-auto mb-4"
         />
-        <h1 className="text-4xl font-bold mb-6">Ситуации №4: «Управлять неуправляемым»</h1>
+        <h1 className="text-4xl font-bold mb-6">Переговорный тренажер</h1>
         <VoiceComponent />
         <small className="text-xs text-gray-500 mt-6">
           Приложение требует доступа к микрофону для работы.
         </small>
         <small className="text-xs text-gray-500 mt-2">v1.0.0</small>
         <small className="text-sm text-gray-500">Powered by Utlik.Co</small>
-      </div>
-
-      {/* Футер с логотипом */}
-      <footer className="mt-6">
         <img
           src="/MilaMorova_logo.svg"
           alt="Mila Morova Logo"
           className="w-20 h-auto opacity-70"
         />
-      </footer>
+      </div>
+
+      {/* Футер с логотипом */}
+      
     </main>
   );
 }
