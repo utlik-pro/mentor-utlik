@@ -84,7 +84,7 @@ const VoiceChat = () => {
     <Card className="w-full max-w-md mx-auto">
       <CardHeader>
         <CardTitle className="flex items-center justify-between">
-          Первый сценарий
+          Ситуации №4: «Управлять неуправляемым»
           <div className="flex gap-2">
             <Button
               variant="outline"
