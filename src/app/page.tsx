@@ -22,12 +22,12 @@ export default function Home() {
         <small className="text-xs text-gray-500 mt-2">v1.0.0</small>
         <small className="text-sm text-gray-500 mb-2">Powered by Utlik.Co</small>
 
-        {/* Логотип Милы Моровой */}
+        {/* Логотип Милы Моровой 
         <img
           src="/MilaMorova_logo.svg"
           alt="Мастерская переговоров Милы Моровой"
           className="w-48 h-auto opacity-80 mt-2"
-        />
+        /> */}
       </div>
     </main>
   );
